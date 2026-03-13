@@ -179,7 +179,7 @@ ON ist.issued_book_isbn = b.isbn
 GROUP BY 1
 
 
--- List Members Who Registered in the Last 180 Days:
+-- Task 9: List Members Who Registered in the Last 180 Days:
 
 SELECT * FROM members
 WHERE reg_date >= CURRENT_DATE - INTERVAL '180 days'    
@@ -192,7 +192,7 @@ VALUES
 
 
 
--- task 10 List Employees with Their Branch Manager's Name and their branch details:
+-- Task 10: List Employees with Their Branch Manager's Name and their branch details:
 
 SELECT 
     e1.*,
